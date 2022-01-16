@@ -16,9 +16,9 @@ export default [
   {
     description: "sunflower, nature, sky",
     preview:
-      "./images/sunflower_small.jpg",
+      "https://cdn.pixabay.com/photo/2010/12/13/10/13/tulips-2546__340.jpg",
     original:
-      "./images/sunflower_big.jpg",
+      "https://cdn.pixabay.com/photo/2010/12/13/10/13/tulips-2546_1280.jpg",
   },
   {
     description: "spring-bird",

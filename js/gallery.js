@@ -85,7 +85,7 @@ function openImg(event) {
   bigImgRef.setAttribute('src', event.target.dataset.source);
   bigImgRef.setAttribute('alt', event.target.alt);
   modalWindow.classList.add('is-open');
-  idx = event.target.dataset.index;
+  idx = Number(event.target.dataset.index);
 
   closeBtn.addEventListener('click', closeModal);
   backdropRef.addEventListener('click', onBackDropClick);
